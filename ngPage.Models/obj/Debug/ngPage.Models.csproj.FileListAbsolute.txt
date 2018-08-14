@@ -1,0 +1,5 @@
+D:\ngPage\ngPage.Models\bin\Debug\ngPage.Models.dll
+D:\ngPage\ngPage.Models\bin\Debug\ngPage.Models.pdb
+D:\ngPage\ngPage.Models\obj\Debug\ngPage.Models.dll
+D:\ngPage\ngPage.Models\obj\Debug\ngPage.Models.pdb
+D:\ngPage\ngPage.Models\obj\Debug\ngPage.Models.csprojResolveAssemblyReference.cache

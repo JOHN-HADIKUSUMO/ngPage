@@ -1,0 +1,9 @@
+D:\ngPage\ngPage.Database\bin\Debug\ngPage.Database.dll
+D:\ngPage\ngPage.Database\bin\Debug\ngPage.Database.pdb
+D:\ngPage\ngPage.Database\bin\Debug\EntityFramework.dll
+D:\ngPage\ngPage.Database\bin\Debug\EntityFramework.SqlServer.dll
+D:\ngPage\ngPage.Database\bin\Debug\EntityFramework.xml
+D:\ngPage\ngPage.Database\bin\Debug\EntityFramework.SqlServer.xml
+D:\ngPage\ngPage.Database\obj\Debug\ngPage.Database.dll
+D:\ngPage\ngPage.Database\obj\Debug\ngPage.Database.pdb
+D:\ngPage\ngPage.Database\obj\Debug\ngPage.Database.csprojResolveAssemblyReference.cache

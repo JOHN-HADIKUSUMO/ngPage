@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngPage", "ngPage\ngPage.csproj", "{593F27B9-9A11-48B7-B75C-2A97252F1A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngPage.Database", "ngPage.Database\ngPage.Database.csproj", "{ADFD7F85-2561-4CBE-AF71-7D51590A2C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngPage.Models", "ngPage.Models\ngPage.Models.csproj", "{EA55723D-0DE5-49CC-8AB9-189E890537CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngPage.Services", "ngPage.Services\ngPage.Services.csproj", "{4C2D9A9C-7B0E-4616-8887-79C71EB83804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ngPage.SQLs", "ngPage.SQLs", "{F7D79BEE-DACC-4ADD-ABA8-CF131B56C0E1}"
+	ProjectSection(SolutionItems) = preProject
+		ngPage.SQLs\Orders_ReadAllByKeywords.sql = ngPage.SQLs\Orders_ReadAllByKeywords.sql
+		ngPage.SQLs\SplitString.sql = ngPage.SQLs\SplitString.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ngPage.Assemblies", "ngPage.Assemblies", "{563C7696-F0AF-47BB-8FDC-C10DCB635C36}"
+	ProjectSection(SolutionItems) = preProject
+		ngPage.Assemblies\Antlr3.Runtime.dll = ngPage.Assemblies\Antlr3.Runtime.dll
+		ngPage.Assemblies\Antlr3.Runtime.pdb = ngPage.Assemblies\Antlr3.Runtime.pdb
+		ngPage.Assemblies\EntityFramework.dll = ngPage.Assemblies\EntityFramework.dll
+		ngPage.Assemblies\EntityFramework.SqlServer.dll = ngPage.Assemblies\EntityFramework.SqlServer.dll
+		ngPage.Assemblies\EntityFramework.SqlServer.xml = ngPage.Assemblies\EntityFramework.SqlServer.xml
+		ngPage.Assemblies\EntityFramework.xml = ngPage.Assemblies\EntityFramework.xml
+		ngPage.Assemblies\Microsoft.AI.Agent.Intercept.dll = ngPage.Assemblies\Microsoft.AI.Agent.Intercept.dll
+		ngPage.Assemblies\Microsoft.AI.DependencyCollector.dll = ngPage.Assemblies\Microsoft.AI.DependencyCollector.dll
+		ngPage.Assemblies\Microsoft.AI.DependencyCollector.XML = ngPage.Assemblies\Microsoft.AI.DependencyCollector.XML
+		ngPage.Assemblies\Microsoft.AI.PerfCounterCollector.dll = ngPage.Assemblies\Microsoft.AI.PerfCounterCollector.dll
+		ngPage.Assemblies\Microsoft.AI.ServerTelemetryChannel.dll = ngPage.Assemblies\Microsoft.AI.ServerTelemetryChannel.dll
+		ngPage.Assemblies\Microsoft.AI.ServerTelemetryChannel.XML = ngPage.Assemblies\Microsoft.AI.ServerTelemetryChannel.XML
+		ngPage.Assemblies\Microsoft.AI.Web.dll = ngPage.Assemblies\Microsoft.AI.Web.dll
+		ngPage.Assemblies\Microsoft.AI.Web.XML = ngPage.Assemblies\Microsoft.AI.Web.XML
+		ngPage.Assemblies\Microsoft.AI.WindowsServer.dll = ngPage.Assemblies\Microsoft.AI.WindowsServer.dll
+		ngPage.Assemblies\Microsoft.AI.WindowsServer.XML = ngPage.Assemblies\Microsoft.AI.WindowsServer.XML
+		ngPage.Assemblies\Microsoft.ApplicationInsights.dll = ngPage.Assemblies\Microsoft.ApplicationInsights.dll
+		ngPage.Assemblies\Microsoft.ApplicationInsights.XML = ngPage.Assemblies\Microsoft.ApplicationInsights.XML
+		ngPage.Assemblies\Microsoft.AspNet.Identity.Core.dll = ngPage.Assemblies\Microsoft.AspNet.Identity.Core.dll
+		ngPage.Assemblies\Microsoft.AspNet.Identity.Core.xml = ngPage.Assemblies\Microsoft.AspNet.Identity.Core.xml
+		ngPage.Assemblies\Microsoft.AspNet.Identity.EntityFramework.dll = ngPage.Assemblies\Microsoft.AspNet.Identity.EntityFramework.dll
+		ngPage.Assemblies\Microsoft.AspNet.Identity.EntityFramework.xml = ngPage.Assemblies\Microsoft.AspNet.Identity.EntityFramework.xml
+		ngPage.Assemblies\Microsoft.AspNet.Identity.Owin.dll = ngPage.Assemblies\Microsoft.AspNet.Identity.Owin.dll
+		ngPage.Assemblies\Microsoft.AspNet.Identity.Owin.xml = ngPage.Assemblies\Microsoft.AspNet.Identity.Owin.xml
+		ngPage.Assemblies\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll = ngPage.Assemblies\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+		ngPage.Assemblies\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml = ngPage.Assemblies\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+		ngPage.Assemblies\Microsoft.Owin.dll = ngPage.Assemblies\Microsoft.Owin.dll
+		ngPage.Assemblies\Microsoft.Owin.Host.SystemWeb.dll = ngPage.Assemblies\Microsoft.Owin.Host.SystemWeb.dll
+		ngPage.Assemblies\Microsoft.Owin.Host.SystemWeb.xml = ngPage.Assemblies\Microsoft.Owin.Host.SystemWeb.xml
+		ngPage.Assemblies\Microsoft.Owin.Security.Cookies.dll = ngPage.Assemblies\Microsoft.Owin.Security.Cookies.dll
+		ngPage.Assemblies\Microsoft.Owin.Security.Cookies.xml = ngPage.Assemblies\Microsoft.Owin.Security.Cookies.xml
+		ngPage.Assemblies\Microsoft.Owin.Security.dll = ngPage.Assemblies\Microsoft.Owin.Security.dll
+		ngPage.Assemblies\Microsoft.Owin.Security.Facebook.dll = ngPage.Assemblies\Microsoft.Owin.Security.Facebook.dll
+		ngPage.Assemblies\Microsoft.Owin.Security.Facebook.XML = ngPage.Assemblies\Microsoft.Owin.Security.Facebook.XML
+		ngPage.Assemblies\Microsoft.Owin.Security.Google.dll = ngPage.Assemblies\Microsoft.Owin.Security.Google.dll
+		ngPage.Assemblies\Microsoft.Owin.Security.Google.XML = ngPage.Assemblies\Microsoft.Owin.Security.Google.XML
+		ngPage.Assemblies\Microsoft.Owin.Security.MicrosoftAccount.dll = ngPage.Assemblies\Microsoft.Owin.Security.MicrosoftAccount.dll
+		ngPage.Assemblies\Microsoft.Owin.Security.MicrosoftAccount.XML = ngPage.Assemblies\Microsoft.Owin.Security.MicrosoftAccount.XML
+		ngPage.Assemblies\Microsoft.Owin.Security.OAuth.dll = ngPage.Assemblies\Microsoft.Owin.Security.OAuth.dll
+		ngPage.Assemblies\Microsoft.Owin.Security.OAuth.XML = ngPage.Assemblies\Microsoft.Owin.Security.OAuth.XML
+		ngPage.Assemblies\Microsoft.Owin.Security.Twitter.dll = ngPage.Assemblies\Microsoft.Owin.Security.Twitter.dll
+		ngPage.Assemblies\Microsoft.Owin.Security.Twitter.XML = ngPage.Assemblies\Microsoft.Owin.Security.Twitter.XML
+		ngPage.Assemblies\Microsoft.Owin.Security.XML = ngPage.Assemblies\Microsoft.Owin.Security.XML
+		ngPage.Assemblies\Microsoft.Owin.XML = ngPage.Assemblies\Microsoft.Owin.XML
+		ngPage.Assemblies\Microsoft.Practices.ServiceLocation.dll = ngPage.Assemblies\Microsoft.Practices.ServiceLocation.dll
+		ngPage.Assemblies\Microsoft.Practices.ServiceLocation.pdb = ngPage.Assemblies\Microsoft.Practices.ServiceLocation.pdb
+		ngPage.Assemblies\Microsoft.Practices.ServiceLocation.XML = ngPage.Assemblies\Microsoft.Practices.ServiceLocation.XML
+		ngPage.Assemblies\Microsoft.Web.Infrastructure.dll = ngPage.Assemblies\Microsoft.Web.Infrastructure.dll
+		ngPage.Assemblies\Newtonsoft.Json.dll = ngPage.Assemblies\Newtonsoft.Json.dll
+		ngPage.Assemblies\Newtonsoft.Json.xml = ngPage.Assemblies\Newtonsoft.Json.xml
+		ngPage.Assemblies\Ninject.dll = ngPage.Assemblies\Ninject.dll
+		ngPage.Assemblies\Ninject.Web.Common.dll = ngPage.Assemblies\Ninject.Web.Common.dll
+		ngPage.Assemblies\Ninject.Web.Common.WebHost.dll = ngPage.Assemblies\Ninject.Web.Common.WebHost.dll
+		ngPage.Assemblies\Ninject.Web.Common.WebHost.xml = ngPage.Assemblies\Ninject.Web.Common.WebHost.xml
+		ngPage.Assemblies\Ninject.Web.Common.xml = ngPage.Assemblies\Ninject.Web.Common.xml
+		ngPage.Assemblies\Ninject.Web.Mvc.dll = ngPage.Assemblies\Ninject.Web.Mvc.dll
+		ngPage.Assemblies\Ninject.Web.Mvc.xml = ngPage.Assemblies\Ninject.Web.Mvc.xml
+		ngPage.Assemblies\Ninject.Web.WebApi.dll = ngPage.Assemblies\Ninject.Web.WebApi.dll
+		ngPage.Assemblies\Ninject.Web.WebApi.xml = ngPage.Assemblies\Ninject.Web.WebApi.xml
+		ngPage.Assemblies\Ninject.xml = ngPage.Assemblies\Ninject.xml
+		ngPage.Assemblies\Owin.dll = ngPage.Assemblies\Owin.dll
+		ngPage.Assemblies\System.Net.Http.Formatting.dll = ngPage.Assemblies\System.Net.Http.Formatting.dll
+		ngPage.Assemblies\System.Net.Http.Formatting.xml = ngPage.Assemblies\System.Net.Http.Formatting.xml
+		ngPage.Assemblies\System.Web.Helpers.dll = ngPage.Assemblies\System.Web.Helpers.dll
+		ngPage.Assemblies\System.Web.Helpers.xml = ngPage.Assemblies\System.Web.Helpers.xml
+		ngPage.Assemblies\System.Web.Http.dll = ngPage.Assemblies\System.Web.Http.dll
+		ngPage.Assemblies\System.Web.Http.WebHost.dll = ngPage.Assemblies\System.Web.Http.WebHost.dll
+		ngPage.Assemblies\System.Web.Http.WebHost.xml = ngPage.Assemblies\System.Web.Http.WebHost.xml
+		ngPage.Assemblies\System.Web.Http.xml = ngPage.Assemblies\System.Web.Http.xml
+		ngPage.Assemblies\System.Web.Mvc.dll = ngPage.Assemblies\System.Web.Mvc.dll
+		ngPage.Assemblies\System.Web.Mvc.xml = ngPage.Assemblies\System.Web.Mvc.xml
+		ngPage.Assemblies\System.Web.Optimization.dll = ngPage.Assemblies\System.Web.Optimization.dll
+		ngPage.Assemblies\system.web.optimization.xml = ngPage.Assemblies\system.web.optimization.xml
+		ngPage.Assemblies\System.Web.Razor.dll = ngPage.Assemblies\System.Web.Razor.dll
+		ngPage.Assemblies\System.Web.Razor.xml = ngPage.Assemblies\System.Web.Razor.xml
+		ngPage.Assemblies\System.Web.WebPages.Deployment.dll = ngPage.Assemblies\System.Web.WebPages.Deployment.dll
+		ngPage.Assemblies\System.Web.WebPages.Deployment.xml = ngPage.Assemblies\System.Web.WebPages.Deployment.xml
+		ngPage.Assemblies\System.Web.WebPages.dll = ngPage.Assemblies\System.Web.WebPages.dll
+		ngPage.Assemblies\System.Web.WebPages.Razor.dll = ngPage.Assemblies\System.Web.WebPages.Razor.dll
+		ngPage.Assemblies\System.Web.WebPages.Razor.xml = ngPage.Assemblies\System.Web.WebPages.Razor.xml
+		ngPage.Assemblies\System.Web.WebPages.xml = ngPage.Assemblies\System.Web.WebPages.xml
+		ngPage.Assemblies\WebActivatorEx.dll = ngPage.Assemblies\WebActivatorEx.dll
+		ngPage.Assemblies\WebGrease.dll = ngPage.Assemblies\WebGrease.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{593F27B9-9A11-48B7-B75C-2A97252F1A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593F27B9-9A11-48B7-B75C-2A97252F1A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593F27B9-9A11-48B7-B75C-2A97252F1A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593F27B9-9A11-48B7-B75C-2A97252F1A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFD7F85-2561-4CBE-AF71-7D51590A2C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFD7F85-2561-4CBE-AF71-7D51590A2C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFD7F85-2561-4CBE-AF71-7D51590A2C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFD7F85-2561-4CBE-AF71-7D51590A2C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA55723D-0DE5-49CC-8AB9-189E890537CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA55723D-0DE5-49CC-8AB9-189E890537CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA55723D-0DE5-49CC-8AB9-189E890537CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA55723D-0DE5-49CC-8AB9-189E890537CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2D9A9C-7B0E-4616-8887-79C71EB83804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2D9A9C-7B0E-4616-8887-79C71EB83804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2D9A9C-7B0E-4616-8887-79C71EB83804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2D9A9C-7B0E-4616-8887-79C71EB83804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
