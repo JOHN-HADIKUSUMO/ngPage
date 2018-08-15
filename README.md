@@ -6,7 +6,36 @@ The running example can be seen on http://ngpage.satuindonesia.com.au. There are
 * ngPage.html
 * ngPage.css
 
-Make sure you have included those files on your html page.
+
+Include **ngPage** module on your angular module :
+
+```
+var apps = angular.module('apps', ['ui.bootstrap','ngPage']);
+```
+
+You also need to provide **$scope.parameters** with five properties as shown below. The code below is taken from the sample code **apps.js**, you might want to assign the values directly as you wish. The **ngPage** 
+
+```
+$scope.parameters = {
+     selectedpageno: data.SelectedPageNo,
+     numberofpages: data.NumberOfPages,
+     numberofrecords: data.NumberOfRecords,
+     itemsperpage: $scope.pagesize,
+     pagesperblock: $scope.blocksize
+};
+```
+
+Or
+
+```
+$scope.parameters = {
+     selectedpageno: 1,
+     numberofpages: 100,
+     numberofrecords: 1000,
+     itemsperpage: 10,
+     pagesperblock: 10
+};
+```
 
 ```
 <div class="col-md-12 margin-bottom-50">
