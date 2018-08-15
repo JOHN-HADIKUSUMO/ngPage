@@ -39,7 +39,7 @@ $scope.parameters = {
 };
 ```
 
-You need to add a method on your angularjs module to pick up the selected page no as the user clicks on the pagination buttons. The name of the method can be anything but it should has one numerical parameters. In this case we call it **onPageClick** method. On my example, everytime this method is triggered by user click it will call search method that basically calling the rest api throught angularjs service module.
+You need to add a method on your angularjs module to pick up the selected page no as the user clicks on the pagination buttons. The name of the method can be anything but it should has one numerical parameters. In this case we call it **onPageClick** method. On my example, everytime this method is triggered by user click it will call **$scope.search** method that basically calling the rest api throught angularjs service module.
 
 ```
 $scope.onPageClick = function (n) {};
@@ -51,4 +51,55 @@ $scope.onPageClick = function (n) {};
      <pagination selectedpageno="parameters.selectedpageno" numberofrecords="parameters.numberofrecords" numberofpages="parameters.numberofpages" itemsperpage="parameters.itemsperpage" pagesperblock="parameters.pagesperblock" on-click="onPageClick(id)">
      </pagination>
 </div>
+```
+
+The **$scope.search** method/function look like this :
+
+```
+    $scope.search = function () {
+        $scope.isprogressing = true;
+        var data = {
+            Keywords: $scope.keywords,
+            PageNo: $scope.pageno,
+            PageSize: $scope.pagesize,
+            BlockSize: $scope.blocksize,
+            OrderBy: $scope.orderby.id,
+            SortOrder: 0
+        };
+        ordersSvc.search(data)
+        .then(function (response) {
+            var data = response.data;
+            $scope.orders = [];
+
+            for (var i = 0; i < data.Orders.length; i++) {
+                $scope.orders.push(data.Orders[i]);
+            }
+
+            $scope.parameters = {
+                selectedpageno: data.SelectedPageNo,
+                numberofpages: data.NumberOfPages,
+                numberofrecords: data.NumberOfRecords,
+                itemsperpage: $scope.pagesize,
+                pagesperblock: $scope.blocksize
+            };
+        })
+        .catch(function (response) { })
+        .finally(function () {
+            $scope.isprogressing = false;
+        });
+    };
+
+```
+
+The angularjs service that call the Rest API look like this :
+
+```
+var ordersSvc = apps.factory('ordersSvc', ['$http', function ($http) {
+    var ordersSvc = {
+        search: function (data) {
+            return $http.post('/API/ORDERS/SEARCH', data);
+        }
+    };
+    return ordersSvc;
+}]);
 ```
