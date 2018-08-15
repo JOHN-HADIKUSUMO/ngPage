@@ -1,4 +1,10 @@
 # ngPage
 <MTMarkdownOptions output='html4'>
-see it running on http://ngpage.satuindonesia.com.au
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+    <td>
+        see it running on http://ngpage.satuindonesia.com.au    
+    </td>
+</tr>
+</table>
 </MTMarkdownOptions>
