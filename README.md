@@ -39,8 +39,7 @@ $scope.parameters = {
 };
 ```
 
-You need to add a method on your module to pick up the selected page no as the user clicks on the pagination buttons. The name
-of the method can be anything but it should has one numerical parameters. In this case we call it **onPageClick** method.
+You need to add a method on your angularjs module to pick up the selected page no as the user clicks on the pagination buttons. The name of the method can be anything but it should has one numerical parameters. In this case we call it **onPageClick** method. On my example, everytime this method is triggered by user click it will call search method that basically calling the rest api throught angularjs service module.
 
 ```
 $scope.onPageClick = function (n) {};
