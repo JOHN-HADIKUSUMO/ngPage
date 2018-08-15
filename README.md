@@ -2,6 +2,8 @@
 <MTMarkdownOptions output='raw'>
 The running example can be seen on http://ngpage.satuindonesia.com.au. There are three files needed in order to implement this pagination module on your html page :
 
+
+
 * ngPage.js    
 * ngPage.html
 * ngPage.css
@@ -25,7 +27,7 @@ $scope.parameters = {
 };
 ```
 
-Or
+or
 
 ```
 $scope.parameters = {
