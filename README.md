@@ -37,6 +37,14 @@ $scope.parameters = {
 };
 ```
 
+You need to add a method on your module to pick up the selected page no as the user clicks on the pagination buttons. The name
+of the method can be anything but it should has one numerical parameters. In this case we call it **onPageClick** method.
+
+```
+$scope.onPageClick = function (n) {};
+
+```
+
 ```
 <div class="col-md-12 margin-bottom-50">
      <pagination selectedpageno="parameters.selectedpageno" numberofrecords="parameters.numberofrecords" numberofpages="parameters.numberofpages" itemsperpage="parameters.itemsperpage" pagesperblock="parameters.pagesperblock" on-click="onPageClick(id)">
