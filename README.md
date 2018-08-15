@@ -1,22 +1,20 @@
 # ngPage
 <MTMarkdownOptions output='raw'>
-The running example can be seen on http://ngpage.satuindonesia.com.au.
-    
-
+The running example can be seen on http://ngpage.satuindonesia.com.au. There are three files needed in order to run this pagination module :
 <table border="0" cellpadding="0" cellspacing="0" style="border:solid #1px #000000;">
 <tr>
     <td>
-        ngPage.js    
+        - ngPage.js    
     </td>
 </tr>
 <tr>
     <td>
-        ngPage.html
+        - ngPage.html
     </td>
 </tr>
 <tr>
     <td>
-        ngPage.css
+        - ngPage.css
     </td>
 </tr>
 </table>
