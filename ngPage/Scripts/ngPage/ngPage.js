@@ -108,33 +108,33 @@ var pagination = ngPage.directive('pagination', ['$filter', '$compile', function
                 page.html('');
                 var navs = getnavigation(selectedpageno, numberofrecords, numberofpages, itemsperpage, pagesperblock);
                 if (navs.first != null) {
-                    var button = angular.element('<button ng-click="click(' + navs.first + ')">First</button>');
+                    var button = angular.element('<a href="#" class="notselected" ng-click="click(' + navs.first + ')">First</a>');
                     page.append(button);
                     $compile(button)(scope);
                 }
                 if (navs.prev != null) {
-                    var button = angular.element('<button ng-click="click(' + navs.prev + ')">Prev</button>');
+                    var button = angular.element('<a href="#" class="notselected" ng-click="click(' + navs.prev + ')">Prev</a>');
                     page.append(button);
                     $compile(button)(scope);
                 }
                 for (var i = 0; i < navs.itemlist.length; i++) {
                     var button = null;
                     if (navs.itemlist[i] == selectedpageno) {
-                        button = angular.element('<span>&nbsp;&nbsp;' + navs.itemlist[i] + '&nbsp;&nbsp;</span>');
+                        button = angular.element('<span class="selected">' + navs.itemlist[i] + '</span>');
                     }
                     else {
-                        button = angular.element('<button ng-click="click(' + navs.itemlist[i] + ')">' + navs.itemlist[i] + '</button>');
+                        button = angular.element('<a href="#" class="notselected" ng-click="click(' + navs.itemlist[i] + ')">' + navs.itemlist[i] + '</button>');
                     }
                     page.append(button);
                     $compile(button)(scope);
                 }
                 if (navs.next != null) {
-                    var button = angular.element('<button ng-click="click(' + navs.next + ')">Next</button>');
+                    var button = angular.element('<a href="#" class="notselected" ng-click="click(' + navs.next + ')">Next</a>');
                     page.append(button);
                     $compile(button)(scope);
                 }
                 if (navs.last != null) {
-                    var button = angular.element('<button ng-click="click(' + navs.last + ')">Last</button>');
+                    var button = angular.element('<a href="#" class="notselected" ng-click="click(' + navs.last + ')">Last</a>');
                     page.append(button);
                     $compile(button)(scope);
                 }
