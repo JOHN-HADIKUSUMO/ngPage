@@ -53,7 +53,7 @@ $scope.onPageClick = function (n) {};
 </div>
 ```
 
-The **$scope.search** method/function look like this :
+The **$scope.search** method/function executes the **search** method on **ordersSvc** service.
 
 ```
     $scope.search = function () {
@@ -91,7 +91,7 @@ The **$scope.search** method/function look like this :
 
 ```
 
-The angularjs service that call the Rest API look like this :
+The **ordersSvc** posts the parameters to the REST API end point.
 
 ```
 var ordersSvc = apps.factory('ordersSvc', ['$http', function ($http) {
