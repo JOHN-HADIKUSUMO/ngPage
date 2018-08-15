@@ -214,3 +214,5 @@ C:\Users\Gunawan\source\repos\ngPage\ngPage\bin\System.Web.WebPages.Razor.xml
 C:\Users\Gunawan\source\repos\ngPage\ngPage\obj\Debug\ngPage.csprojResolveAssemblyReference.cache
 C:\Users\Gunawan\source\repos\ngPage\ngPage\obj\Debug\ngPage.dll
 C:\Users\Gunawan\source\repos\ngPage\ngPage\obj\Debug\ngPage.pdb
+C:\Users\Gunawan\source\repos\ngPage\ngPage\obj\Debug\ngPage.csproj.CoreCompileInputs.cache
+C:\Users\Gunawan\source\repos\ngPage\ngPage\obj\Debug\ngPage.csproj.CopyComplete
